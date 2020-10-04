@@ -14,7 +14,7 @@ class V8(config_util.Config):
 
   @staticmethod
   def fetch_spec(props):
-    url = 'https://chromium.googlesource.com/v8/v8.git'
+    url = 'https://github.com/v8/v8.git'
     solution = {
         'name'        : 'v8',
         'url'         : url,
